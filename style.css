@@ -1,0 +1,48 @@
+/* *{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.btn{
+    display: inline-flex;
+    margin-top: 0ch;
+    border-radius: 8;
+    background: lightgreen;
+}
+html{
+    font-size: small;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    scroll-padding: 7;
+}
+.header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 800;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 9%;
+}
+
+.header .logo{
+    font-size: small;
+    font-weight: bold;
+    color: burlywood;
+
+}
+.header .navbar a{
+    font-size: small;
+    margin: 0%;
+    color: black;
+
+}
+.header .navbar a:hover{
+    color: blue;
+} */

@@ -3,30 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Website</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>CAR APP</title>
     <link rel="stylesheet" href="style.css">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <header class="bg-white text-black">
-        <div class="container">
-        <h1>AASANE CARS</h1>
-        <nav>
-            <ul>
-                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
+    <header class="header">
+
+        <a href="#" class="logo">AASANE CARS</a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">about us</a></li>
+                    <li><a class="dropdown-item" href="#">contact</a></li>
+                    <li><a class="dropdown-item" href="#">cars</a></li>
+                  </ul>
+                </li>
+               
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
         </nav>
-        </div>
-    </header>
-    <section id="home" class="home-1"></section>
-    <div class="container">
-        <h2>Welcome to Our Car Website</h2>
+
+      
+      <div id="login-btn">
+        <button type="button" class="btn">login</button>
         
+        <box-icon name='user'></box-icon>
+
+      </div>
+    </header>
+
+    <div class="login-form container">
+
+      <span class="fa-solid"></span>
+
+    
+  <form action="">
+
+    <h3>user login</h3>
+
+    <input type="email" placeholder="email" class="modern"> 
+    <input type="password" placeholder="password" class="modern">
+    <p> forgot password <a href="#">press here</a></p>
+    <input type="submit" value="login" class="btn">
+    <div class="button">
+      <p>or login with</p>
+      <div class="button">
+      <a href="#"> google</a>
+      <a href="#">microsoft</a>
+      <a href="#"></a>
+      </div>
+      <p>create account <a href="#"> create </a></p>
+
     </div>
+  </form> 
+
+</div>
+
+<section class="home">
+  <h1 class="home-port" data-speed="-2">search car</h1>
+  <img class="home-port" data-speed="5" src="./images/Track day.jpeg" alt="lamborghini">
+  <a class="btn home-port" data-speed="7" href="#">Explore vintage cars </a>
+
+</section>
+
+<div class="icons">
+  <box-icon type='solid' name='home'></box-icon>
+  <div class="content">
+    <h3>300</h3>
+    <P>branches</P>
+  </div>
+
+</div>
+
+
+<div class="icons">
+  <box-icon name='car' type='solid' ></box-icon>
+  <div class="content">
+    <h3>400</h3>
+    <P>clients</P>
+  </div>
+
+</div>
+
+<div class="icons">
+  <box-icon type='solid' name='user'></box-icon>
+  <div class="content">
+    <h3>500</h3>
+    <P>branches</P>
+  </div>
+</div>
+
+</section>
 
 
 
@@ -47,7 +136,26 @@
 
 
 
-    <script src="./js/index.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+       <script src="./js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
